@@ -6,8 +6,6 @@ def ValidDate(dt0):
     return True
   except:
     return False
-def CompareDates(dt0, dt1): ## dt0 > dt1
-  return dt0 > dt1
   
 result = ValidDate("29/02/2025")
 print(result)
